@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="https://use.fontawesome.com/ae296de4ae.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <style>
+    .jumbotron {
+      background-image: url(https://images.unsplash.com/photo-1529998274859-64a3872a3706?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+      background-size: 100%;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    #email {
+      width: 300px;
+    }
+
+    #appSummary {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px
+    }
+
+    #footer {
+      height: 300px;
+      background-color: #5fe9ff;
+      padding-top: 60px;
+      margin-top: 50px;
+    }
+
+    body {
+      position: relative;
+    }
+  </style>
+
+
+  <title>MyApp</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+    <a class="navbar-brand" href="#">MyApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Download The App</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <div class="nav-item">
+          <a class="nav-link" href="http://www.kep.design">Kep.design</a>
+        </div>
+        <input class="form-control mr-sm-2" type="text" placeholder="Email">
+        <label for="password"></label>
+        <input class="form-control mr-sm-2" type="password" placeholder="Password">
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+      </form>
+    </div>
+  </nav>
+
+  <div class="jumbotron" id="jumbotron">
+    <h1 class="display-4">My Awesome App!</h1>
+    <p class="lead font-weight-normal">This is why YOU should download this fantastic app!</p>
+    <hr class="my-4">
+    <p>Want to know more? Join our mailing list!</p>
+
+    <form class="form-inline justify-content-center">
+      <div class="form-group">
+        <label for="email" class="sr-only">Email Address</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          </div>
+          <input class="form-control" type="text" id="email" placeholder="Your Email">
+        </div>
+      </div>
+      <div class="col-auto my-1">
+        <a class="btn btn-primary" href="#" role="button">Sign Up</a>
+      </div>
+    </form>
+  </div>
+
+  <div class="container">
+    <div id="appSummary">
+      <h1>Why This App Is Awesome</h1>
+      <p class="lead">Summary, once again, of your app's awesomeness</p>
+    </div>
+  </div>
+
+  <div class="container" id="about">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top"
+          src="https://images.unsplash.com/photo-1612387630316-a1572bdec00c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-anchor"></i> Hipster</h5>
+          <p class="card-text">I'm baby hammock everyday carry lyft, copper mug tattooed twee fingerstache cronut
+            shoreditch. Ennui jean shorts single-origin coffee bitters flannel activated charcoal.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://images.unsplash.com/photo-1613327395315-703b1a4e16a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><i class="fa fa-bicycle"></i> Skateboard</h5>
+          <p class="card-text"> Bitters hell of
+            intelligentsia vegan brooklyn, everyday carry four dollar toast migas selvage single-origin coffee shaman
+            sustainable microdosing lo-fi. Celiac meh kitsch mustache.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top"
+          src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+          alt="Card image cap">
+        <div class="card-body">
+          <i class="fas fa-shoe-prints"></i>
+          <h5 class="card-title"><i class="fa fa-birthday-cake"></i> Sustainable</h5>
+          <p class="card-text">Photo booth chia bicycle rights lyft bushwick wayfarers synth everyday carry
+            intelligentsia adaptogen franzen shoreditch cardigan portland kickstarter. Typewriter blog coloring book
+            blue bottle hoodie vice church-key williamsburg before they sold out pork belly.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center" id="footer">
+    <h2>Download the app!</h2>
+    <p class="lead">Really, why should I download this app??</p>
+    <p>
+      <a href="#"><img src="./images/google-play-badge.png" width="250px"></a>
+    </p>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
